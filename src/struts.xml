@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<!-- 指定struts.xml文件的根元素 -->
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+ <!-- 	<constant name="struts.objectFactory" value="spring" />
+  -->
+	<!-- 定义包 -->
+	<package name="default" namespace="/" extends="struts-default">
+
+		<action name="login" class="loginService">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+	</package>
+
+</struts>
