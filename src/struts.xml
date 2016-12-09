@@ -12,7 +12,7 @@
 		<action name="login" class="loginService">
 			<result name="success">/index.jsp</result>
 		</action>
-		
+	<!-- 测试git branch -->
 	</package>
 
 </struts>
